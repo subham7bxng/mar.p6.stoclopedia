@@ -1,0 +1,67 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Lato:ital,wght@1,300&family=Montserrat:wght@100&family=Rubik+Bubbles&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    text-align: center;
+    margin: 5rem 0;
+    /* background-color: antiquewhite; */
+}
+@media only screen and (min-width: 992px) {
+    .frontimg{
+        height: 30rem;
+        width: 30rem;
+    }
+    .cardy{
+        width: 30rem;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    .frontimg{
+        height: 20rem;
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .frontimg{
+        height: 11rem;
+        width: 11rem;
+    }
+    .cardy{
+        width: 20rem;
+    }
+}
+.text{
+    margin: auto 0;
+}
+.cardy{
+    text-align: center;
+}
+h2, h5, h4{
+    font-family: 'Montserrat-bold', sans-serif;
+    color: brown;
+}
+.card{
+    margin: 2rem auto ;
+}
+footer{
+    height: 2.5rem;
+    background-color: rgb(104, 104, 104);
+}
+.footy{
+    text-align: center;
+    color: aliceblue;
+}
+.navbar-brand{
+    font-family: 'Montserrat-bold', sans-serif; 
+}
+.card-body{
+    background-color: rgb(243, 243, 243);
+}
+.list-group-item{
+    background-color: rgb(233, 232, 232);
+}
